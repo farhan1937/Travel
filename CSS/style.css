@@ -194,7 +194,7 @@ li {
     font-size: 15px;
     margin-left: 35%;
     width: 30%;
-    padding-bottom: ;
+    padding-bottom: 30px;
 }  
     
 
@@ -212,7 +212,15 @@ li {
     flex-wrap: wrap;
     gap: 20px;
 }
-
+.Hotels{
+    border: 2px solid red;
+    background-color: bisque;
+    width: 50%;
+    
+}
+.hotel-section{
+    display: flex;
+}
 
 
 
@@ -279,23 +287,6 @@ li {
         width: 100%;
     }
 
-    .beauty-nature {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-        /* margin: 20px auto; */
-        width: 100%;
-    }
-
-    .box-one,
-    .Srilanka,
-    .North-America,
-    .Kashmir {
-        width: 100%;
-        height: 100%;
-        background-size: cover;
-        justify-content: center;
-    }
+    
 
 }
