@@ -5,6 +5,10 @@ header {
     margin-top: 40px;
 
 }
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 .header-img {
     display: flex;
@@ -309,7 +313,7 @@ li {
 .hotel-section {
     display: flex;
     flex-wrap: nowrap;
-    /* padding-left: 20px; */
+    padding-left: 20px;
 }
 
 .newsletter {
@@ -430,7 +434,7 @@ footer {
 
     .banner .banner-heading {
         font-size: 1.5rem;
-        padding-top: 10px;
+        /* padding-top: 10px; */
 
 
     }
@@ -457,14 +461,13 @@ footer {
     }
 
     .dolor {
-        width: 250px;
+        width: 400px;
         font-size: 1.5rem;
         /* margin: 0px auto; */
     }
 
     .hotel-section {
         flex-direction: column;
-        margin: 0px 30px;
     }
 
     .popular-section {
@@ -518,7 +521,7 @@ footer {
         font-size: 2.2rem;
     }
 
-    
+    .ture-pera,
     .box-two,
     .box-tour {
         width: 483px;
@@ -535,9 +538,9 @@ footer {
 
     }
 
-    .best-price,.ture-pera {
+    .best-price {
         width: 300px;
-        /* margin-left: 10px; */
+        margin-left: 40px;
 
     }
 
