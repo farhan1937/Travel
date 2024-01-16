@@ -50,7 +50,7 @@ nav li a {
 
 nav li {
     list-style: none;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     font-weight: 500;
 }
 
@@ -164,7 +164,8 @@ li {
 
 
 }
-#popular-i{
+
+#popular-i {
     width: 400px;
 }
 
@@ -218,7 +219,7 @@ li {
     gap: 20px;
 }
 
-.tour{
+.tour {
     display: flex;
     flex-wrap: wrap;
     margin-left: 50px;
@@ -226,20 +227,22 @@ li {
     width: 300;
 }
 
-.box-two{
+.box-two {
     box-shadow: 0px 10px 10px 0px rgb(171, 169, 169);
     padding: 10px;
     border-radius: 10px;
     margin-left: 100px;
 }
-.box-tour{
+
+.box-tour {
     margin-top: 20px;
     box-shadow: 0px 10px 10px 0px rgb(171, 169, 169);
     padding: 10px;
     border-radius: 10px;
     margin-left: 100px;
 }
-.tour-two{
+
+.tour-two {
     display: flex;
     flex-wrap: wrap;
     margin-left: 50px;
@@ -247,18 +250,22 @@ li {
     gap: 20px;
     width: 300;
 }
-.box-two:hover{
+
+.box-two:hover {
     box-shadow: 0px 0px 10px 10px rgb(185, 219, 231);
-    
+
 }
-.box-tour:hover{
+
+.box-tour:hover {
     box-shadow: 0px 0px 10px 10px rgb(185, 219, 231);
 }
-.ture-heading{
+
+.ture-heading {
     text-align: center;
     font-size: 2.2rem;
 }
-.ture-pera{
+
+.ture-pera {
     text-align: center;
     width: 700px;
     margin: 10px auto;
@@ -267,7 +274,7 @@ li {
 
 
 .details-section {
-    margin: 100px;
+    margin: 80px;
 }
 
 .Hotels {
@@ -302,7 +309,7 @@ li {
 .hotel-section {
     display: flex;
     flex-wrap: nowrap;
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 
 .newsletter {
@@ -311,8 +318,8 @@ li {
     gap: 20px;
     justify-content: center;
     width: 100%;
-    
-    
+
+
 }
 
 .input-news {
@@ -321,22 +328,22 @@ li {
     border: 1px solid #FF5400;
     text-align: left;
     margin: 10px;
-   
-     border-radius: 10px;
-     padding: 20px;
-     height: 50vh;
-     width: 50vh;
+
+    border-radius: 10px;
+    padding: 20px;
+    height: 50vh;
+    width: 50vh;
 
 }
 
 .input-news .email {
-    
+
     border-radius: 8px;
     /* background: rgba(19, 19, 24, 0.05); */
     padding: 20px;
     margin: 10px;
-    
-    
+
+
 }
 
 .btn-input {
@@ -348,7 +355,8 @@ li {
     padding-top: 20px;
 
 }
-.ten-years-badge{
+
+.ten-years-badge {
     border-radius: 8px;
     background: #FF900E;
     color: #fff;
@@ -360,153 +368,189 @@ li {
     left: 270px;
     bottom: 180px;
     transform: rotate(-19.628deg);
-    
+
 }
-.ten-years-badge h2{
+
+.ten-years-badge h2 {
     font-size: 1.5rem;
     margin: 0;
 }
-.ten-years-badge p{
+
+.ten-years-badge p {
     font-size: 1.2rem;
 }
-.img-news{
+
+.img-news {
     margin-top: 10px;
 }
-footer{
+
+footer {
     background: rgba(19, 19, 24, 0.05);
 }
-.footer-img{
+
+.footer-img {
     display: flex;
     justify-content: center;
     gap: 20px;
     padding-top: 40px;
 }
-.footer-icon{
+
+.footer-icon {
     text-align: center;
     width: 60%;
     margin: 0px auto;
     border-bottom: 1px solid #131318;
     padding: 30px;
 }
-.right{
+
+.right {
     text-align: center;
     padding: 50px;
 }
-#images{
+
+#images {
     width: 100%;
 }
 
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
 
     nav>ul {
         gap: 10px;
         text-align: center;
-    
+        align-items: center;
+        font-size: 1.2rem;
+        width: 100%;
         
+
+
     }
-    .banner .banner-heading{
+
+    .banner .banner-heading {
         font-size: 1.5rem;
         padding-top: 10px;
 
 
     }
-    .input{
+
+    .input {
         padding: 30px 40px;
     }
-    .chooose{
+
+    .chooose {
         text-align: center;
         margin: 10px auto;
     }
-    .dolor{
+
+    .dolor {
         text-align: center;
         font-size: 1.5rem;
         width: 80%;
         margin: 10px auto;
     }
-    .chooose{
+
+    .chooose {
         text-align: center;
         font-size: 2.2rem;
     }
-    .dolor{
-        width: 400px;
+
+    .dolor {
+        width: 250px;
         font-size: 1.5rem;
         /* margin: 0px auto; */
     }
-    .hotel-section{
+
+    .hotel-section {
+        flex-direction: column;
+        margin: 0px 30px;
+    }
+
+    .popular-section {
         flex-direction: column;
     }
-    .popular-section{
-        flex-direction: column;
-    }
-    .popular{
+
+    .popular {
         /* margin: 20px 0px; */
         width: 80vw;
         /* margin-left: 0%; */
-        padding-left: 5px;
+        padding-left: 20px;
     }
-    .popular-img{
+
+    .popular-img {
         margin-top: 10px;
         width: 483px;
         margin: 10px 30px;
     }
-    .Srilanka{
+
+    .Srilanka {
         width: 483px;
-        margin: 10px 30px;
+        margin: 10px auto;
     }
-    .North-America{
+
+    .North-America {
         width: 470px;
         margin: 10px 30px;
     }
-    .Kashmir{
+
+    .Kashmir {
         width: 483px;
         margin: 10px 30px;
     }
-    .bd-beauty{
+
+    .bd-beauty {
+        width: 483px;
+        margin: 10px auto;
+    }
+
+    .Maldives {
+        width: 600px;
+        margin: 10px 30px;
+    }
+
+    .Indonesia {
         width: 483px;
         margin: 10px 30px;
     }
-    .Maldives{
-        width: 483px;
-        margin: 10px 30px;
-    }
-    .Indonesia{
-        width: 483px;
-        margin: 10px 30px;
-    }
-    .ture-heading{
+
+    .ture-heading {
         font-size: 2.2rem;
     }
-    .ture-pera,.box-two,.box-tour{
+
+    
+    .box-two,
+    .box-tour {
         width: 483px;
         margin: 5px 30px;
 
     }
-    
-    .ten-years-badge{
-        
-        
+
+    .ten-years-badge {
+
+
         left: 80px;
         bottom: 180px;
-        
-        
-    }
-    .best-price{
-        width:300px;
-        margin-left: 40px;
+
 
     }
-    .hotel-section{
+
+    .best-price,.ture-pera {
+        width: 300px;
+        /* margin-left: 10px; */
+
+    }
+
+    .hotel-section {
         width: 600px;
     }
-    .img-news{
+
+    .img-news {
         margin: 10px 40px;
     }
-     
-        
-    
+
+
+
 
 
 
