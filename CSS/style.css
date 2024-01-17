@@ -9,6 +9,9 @@ main{
     max-width: 1440px;
     margin: 0 auto;
 }
+body{
+    overflow-x: hidden;
+}
 
 .header-img {
     display: flex;
@@ -434,6 +437,9 @@ footer {
 
 
     }
+    body{
+        overflow-x: hidden;
+    }
 
     .banner .banner-heading {
         font-size: 1.5rem;
@@ -490,35 +496,12 @@ footer {
         margin: 10px 30px;
     }
 
-    .Srilanka {
+    .Srilanka,.North-America,.Kashmir,.bd-beauty,
+    .Maldives,.Indonesia  {
         width: 483px;
         margin: 10px auto;
     }
 
-    .North-America {
-        width: 470px;
-        margin: 10px 30px;
-    }
-
-    .Kashmir {
-        width: 483px;
-        margin: 10px 30px;
-    }
-
-    .bd-beauty {
-        width: 483px;
-        margin: 10px auto;
-    }
-
-    .Maldives {
-        width: 600px;
-        margin: 10px 30px;
-    }
-
-    .Indonesia {
-        width: 483px;
-        margin: 10px 30px;
-    }
 
     .ture-heading {
         font-size: 2.2rem;
